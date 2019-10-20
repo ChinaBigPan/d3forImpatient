@@ -6,6 +6,9 @@ module.exports = {
     },
     base: "/d3forImpatient/",
     themeConfig: {
+        repo: "/ChinaBigPan/d3forImpatient",
+        repoLabel: "GitHub",
+        smoothScroll: true,
         nav: [{ text: "首页", link: "/" }],
         sidebar: [
             {
