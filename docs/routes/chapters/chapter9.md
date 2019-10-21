@@ -6,7 +6,7 @@
 
 ```js
 function makeTree() {
-    d3.json("filesys.json").then(function(json) {
+    d3.json("/dataBase/filesys.json").then(function(json) {
         var nodes = d3.hierarchy(json, d => d.kids); //<1>
         d3.tree().size([250, 225])(nodes); //<2>
 
@@ -82,7 +82,7 @@ function makeTree2() {
 
 ```js
 function makeRadial() {
-    d3.json("filesys.json").then(function(json) {
+    d3.json("/dataBase/filesys.json").then(function(json) {
         var nodes = d3.cluster().size([2 * Math.PI, 125])(
             //<1>
             d3.hierarchy(json, d => d.kids).sort((a, b) => b.height - a.height)
@@ -131,7 +131,7 @@ function makeRadial() {
 
 ```js
 function makeTreemap() {
-    d3.json("filesys.json").then(function(json) {
+    d3.json("/dataBase/filesys.json").then(function(json) {
         var sc = d3.scaleOrdinal(d3.schemeReds[8]);
 
         var nodes = d3

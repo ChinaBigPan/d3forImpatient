@@ -57,7 +57,7 @@ export default {
             });
         },
         makeTree2() {
-            d3.json('/dataBase/filesys.json').then(function(json) {
+            d3.json('/d3forImpatient/dataBase/filesys.json').then(function(json) {
                 var nodes = d3.hierarchy(json, d => d.kids).sort((a, b) => b.height - a.height);
                 d3.cluster().size([250, 225])(nodes);
                 var g = d3
