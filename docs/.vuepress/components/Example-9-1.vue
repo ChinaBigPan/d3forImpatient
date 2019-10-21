@@ -26,7 +26,7 @@ export default {
     },
     methods: {
         makeTree() {
-            d3.json('/dataBase/filesys.json').then(function(json) {
+            d3.json('/d3forImpatient/dataBase/filesys.json').then(function(json) {
                 var nodes = d3.hierarchy(json, d => d.kids); //<1>
                 d3.tree().size([250, 225])(nodes); //<2>
 

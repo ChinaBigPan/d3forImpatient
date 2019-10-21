@@ -25,7 +25,7 @@ export default {
     methods: {
         makeBrush() {
             let _this = this;
-            d3.csv('/dataBase/dense.csv').then(function(data) {
+            d3.csv('/d3forImpatient/dataBase/dense.csv').then(function(data) {
                 var svg1 = d3.select('#brush1'),
                     svg2 = d3.select('#brush2');
                 var sc1 = d3

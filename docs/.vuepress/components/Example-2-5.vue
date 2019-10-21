@@ -20,7 +20,7 @@ export default {
     },
     methods: {
         makeDemo2() {
-            d3.csv('/dataBase/examples-multiple.csv').then(function(data) {
+            d3.csv('/d3forImpatient/dataBase/examples-multiple.csv').then(function(data) {
                 var pxX = 625,
                     pxY = 325;
                 var scX = d3

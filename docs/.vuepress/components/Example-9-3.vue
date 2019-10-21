@@ -20,7 +20,7 @@ export default {
     },
     methods: {
         makeTreemap() {
-            d3.json('/dataBase/filesys.json').then(function(json) {
+            d3.json('/d3forImpatient/dataBase/filesys.json').then(function(json) {
                 var sc = d3.scaleOrdinal(d3.schemeReds[8]);
 
                 var nodes = d3

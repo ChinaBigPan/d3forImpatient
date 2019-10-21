@@ -20,7 +20,7 @@ export default {
     },
     methods: {
         makeDemo1() {
-            d3.csv('/dataBase/examples-simple.csv').then(data => {
+            d3.csv('/d3forImpatient/dataBase/examples-simple.csv').then(data => {
                 // console.table(data);
                 d3.select('#demo1')
                     .selectAll('circle')

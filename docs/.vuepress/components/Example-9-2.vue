@@ -20,7 +20,7 @@ export default {
     },
     methods: {
         makeRadial() {
-            d3.json('/dataBase/filesys.json').then(function(json) {
+            d3.json('/d3forImpatient/dataBase/filesys.json').then(function(json) {
                 var nodes = d3.cluster().size([2 * Math.PI, 125])(
                     //<1>
                     d3.hierarchy(json, d => d.kids).sort((a, b) => b.height - a.height)

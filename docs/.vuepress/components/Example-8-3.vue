@@ -21,7 +21,7 @@ export default {
     methods: {
         makeContours() {
             let _this = this;
-            d3.json('/dataBase/haxby.json').then(function(scheme) {
+            d3.json('/d3forImpatient/dataBase/haxby.json').then(function(scheme) {
                 //<1>
                 // Set up scales, including color
                 var pxX = 525,

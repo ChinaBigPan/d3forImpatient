@@ -20,7 +20,7 @@ export default {
     },
     methods: {
         makeNetwork() {
-            d3.json('/dataBase/network.json').then(res => {
+            d3.json('/d3forImpatient/dataBase/network.json').then(res => {
                 var svg = d3.select('#net');
                 var scC = d3.scaleOrdinal(d3.schemePastel1);
 
