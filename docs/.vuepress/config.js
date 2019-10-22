@@ -9,7 +9,13 @@ module.exports = {
         repo: "/ChinaBigPan/d3forImpatient",
         repoLabel: "GitHub",
         smoothScroll: true,
-        nav: [{ text: "首页", link: "/" }],
+        nav: [
+            { text: "首页", link: "/" },
+            {
+                text: "Github",
+                link: "https://github.com/ChinaBigPan/d3forImpatient"
+            }
+        ],
         sidebar: [
             {
                 title: "第2章 让我们开始作图吧",

@@ -2,7 +2,7 @@
 home: true
 heroImage: /images/d3forTheImpatient.jpg
 heroText: 欢迎来到《D3速成手册 示例》
-tagline: 方便您理解本书中的示例
+tagline: 方便您理解本书中的示例（D3 ver 5.12）
 actionText: 来看看吧 →
 actionLink: /routes/chapters/chapter2.html
 # features:
