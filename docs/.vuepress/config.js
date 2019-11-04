@@ -57,12 +57,12 @@ module.exports = {
                 sidebarDepth: 2
             },
             {
-                title: "第9章 树和网络",
+                title: "第9章 树和网格",
                 path: "/routes/chapters/chapter9.html",
                 sidebarDepth: 2
             }
         ],
-        lasteUpdated: "上次更新",
+        lastUpdated: "上次更新",
         repo: ""
     },
     head: [["link", { rel: "icon", href: "/images/favicon.ico" }]]
