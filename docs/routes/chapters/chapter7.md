@@ -67,7 +67,7 @@ function makeTicks() {
 
 ```js
 function makeGraph() {
-    d3.text("phonecost.tsv").then(res => {
+    d3.text("/dataBase/phonecost.tsv").then(res => {
         var data = d3.tsvParseRows(res, d => [+d[0], +d[1]]); //<1>
         function draw(sel, scX, scY, width, height) {
             //<2>

@@ -154,7 +154,7 @@ function makeMandelbrot() {
 
 ```js
 function makeContours() {
-    d3.json("haxby.json").then(function(scheme) {
+    d3.json("/dataBase/haxby.json").then(function(scheme) {
         //<1>
         // Set up scales, including color
         var pxX = 525,

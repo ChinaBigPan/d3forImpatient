@@ -29,7 +29,7 @@ function coordsPixels(selector) {
 
 ```js
    function makeBrush() {
-      d3.csv("dense.csv").then( function ( data ) {
+      d3.csv("/data/Base/dense.csv").then( function ( data ) {
         var svg1 = d3.select( "#brush1" ), svg2 = d3.select( "#brush2" );
         var sc1 = d3.scaleLinear()
           .domain([0, 10, 50])

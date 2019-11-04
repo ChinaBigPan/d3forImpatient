@@ -5,6 +5,15 @@ module.exports = {
         resolve: {}
     },
     base: "/d3forImpatient/",
+    markdown: {
+        lineNumbers: true
+    },
+    plugins: [
+        "@vuepress/active-header-links",
+        "@vuepress/back-to-top",
+        "@vuepress/last-updated",
+        "@vuepress/nprogress"
+    ],
     themeConfig: {
         repo: "/ChinaBigPan/d3forImpatient",
         repoLabel: "GitHub",
